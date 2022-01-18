@@ -10,6 +10,8 @@ _This is still very much WIP_
 
 ### Hashing
 
+You can either hash the properties yourself or you can let the integration hash them for you. But it's either all or nothing.
+
 These properties need to be hashed
 
 - First name
