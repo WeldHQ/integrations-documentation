@@ -16,7 +16,7 @@ Don't want to do all this yourself? We got your back! Just run our script in you
 
 **2.** Paste in the script found below
 
-**3.** Change the  ==SET_PASSWORD_HERE== value on line 2, to a password you decide. Make sure to note it somewhere safe, as it is needed later. 
+**3.** Change the  **SET_PASSWORD_HERE** value on line 2, to a password you decide. Make sure to note it somewhere safe, as it is needed later. 
 It should look like this. 
 `set user_weld_password = 'the password you decide here';`
 
@@ -132,9 +132,10 @@ The default role of the weld user will need access to the following databases. Y
  - "analytics"
 
 It can be done by granting the following privileges for each of the above databases: 
-`GRANT CREATE SCHEMA, USAGE ON DATABASE databaseName TO ROLE roleName`
-`GRANT CREATE TABLE ON FUTURE SCHEMAS IN DATABASE databaseName TO ROLE roleName`
-`GRANT CREATE VIEW ON FUTURE SCHEMAS IN DATABASE databaseName TO ROLE roleName`
+
+`GRANT CREATE SCHEMA, USAGE ON DATABASE databaseName TO ROLE roleName`  
+`GRANT CREATE TABLE ON FUTURE SCHEMAS IN DATABASE databaseName TO ROLE roleName`  
+`GRANT CREATE VIEW ON FUTURE SCHEMAS IN DATABASE databaseName TO ROLE roleName`  
 
 Lastly, the default role must also have **USAGE** rights to the warehouse 
 `GRANT USAGE ON warehouseName TO ROLE roleName`
@@ -144,16 +145,20 @@ Lastly, the default role must also have **USAGE** rights to the warehouse
 You are now all set up, and ready to go! Fill in your snowflake credentials, and start welding! 
 
 ## Wheres my credentials?
-**Account**
+**Account**  
 Account can be found in the URL of your snowflake instance, in the following format: 
 `app.snowflake.com/region.cloudProvider/identifier`. 
 Rearranged into the correct format for weld would be: 
 `identifier.region.cloudprovider`
-**Warehouse**
+
+**Warehouse**  
 the default warehouse is `COMPUTE_WH`
-**Database**
+
+**Database**  
 The database should be `WELD_LANDING`
-**User name**
+
+**User name**  
 The default User name is `WELD_USER`
-**Password**
+
+**Password**  
 This is the password you should have decided on yourself.
