@@ -14,16 +14,8 @@ Don't want to do all this yourself? We got your back! Just run our script in you
 **1.** To run the script, go and log in to the *classic console* in snowflake ![enter image description here](https://lh3.googleusercontent.com/pw/AM-JKLXNC0uH8lYRGwdAIKeDbh-uvg91hD9tJFEDvTMH4aV9zruMuXAMQiDa3wk8M8W2VD1eCbd8r5PhZbw23ybB1LR4bBVWFTud8ynjY_5_jLOesxwxir5SDcu-6liApibkKBn4s8VoMW9_7g28yibKjAU=w1254-h680-no?authuser=0)
 >If this is your first time in the Classic Console, minimize the 'welcome' window.
 
-**2.** Paste in the script found below
+**2.** Paste in the script found below:  
 
-**3.** Change the  **SET_PASSWORD_HERE** value on line 2, to a password you decide. Make sure to note it somewhere safe, as it is needed later. 
-It should look like this. 
-`set user_weld_password = 'the password you decide here';`
-
-**4.** check the **All Queries**, and press **Run**
-
-![enter image description here](https://lh3.googleusercontent.com/pw/AM-JKLV0zTfbd206H_fAL-Wy-J3hW4TS8otL3o-kngS9XOveFCl45y01cuUiAD2GbP3cgxaDL_UKYedbfajIy6XDO29WcNBXt8JVMn1e0c7ZzAEIlsZ_7WEh_BFectF2muh2DHm_FVnP2-dZlEixCSTz2bw=w1354-h496-no?authuser=0)
-	
 	   -- create variables for role / user / database (needs to be uppercase for objects)
 	   set user_weld_password = 'SET_PASSWORD_HERE';
 
@@ -113,6 +105,14 @@ It should look like this.
 	     on future schemas
 	     in database identifier($database_landing)
 	     to role identifier($role_weld);	
+
+**3.** Change the  **SET_PASSWORD_HERE** value on line 2, to a password you decide. Make sure to note it somewhere safe, as it is needed later. 
+It should look like this. 
+`set user_weld_password = 'the password you decide here';`
+
+**4.** check the **All Queries**, and press **Run**
+
+![enter image description here](https://lh3.googleusercontent.com/pw/AM-JKLV0zTfbd206H_fAL-Wy-J3hW4TS8otL3o-kngS9XOveFCl45y01cuUiAD2GbP3cgxaDL_UKYedbfajIy6XDO29WcNBXt8JVMn1e0c7ZzAEIlsZ_7WEh_BFectF2muh2DHm_FVnP2-dZlEixCSTz2bw=w1354-h496-no?authuser=0)
 
 The bottom of your query editor should now show the following: 
 
