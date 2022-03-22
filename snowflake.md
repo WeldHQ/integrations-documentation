@@ -23,10 +23,10 @@ Don't want to do all this yourself? We got your back! Just run our script in you
 	   set role_weld = 'WELD_ROLE';
 
 	   set database_raw = 'WELD_RAW';
-	   set database_core = '"core"';
+	   set database_core = 'WELD_CORE';
 	   set database_landing = 'WELD_LANDING';
-	   set database_staging ='"staging"';
-	   set database_analytics = '"analytics"';
+	   set database_staging ='WELD_STAGING';
+	   set database_analytics = 'WELD_ANALYTICS';
 
 	   set warehouse_name = 'compute_wh';
 
@@ -126,10 +126,10 @@ Start by creating a role and a user for Weld.
 The default role of the weld user will need access to the following databases. You might have to create them
 
  - WELD_RAW
- - "core"
- - "staging"
+ - WELD_CORE
+ - WELD_STAGING
  - WELD_LANDING
- - "analytics"
+ - WELD_ANALYTICS
 
 It can be done by granting the following privileges for each of the above databases: 
 
