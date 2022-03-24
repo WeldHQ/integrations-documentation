@@ -2,7 +2,7 @@
 # How To Connect Bigquery
 For Weld to be able to connect to Bigquery, you need a service account with the right credentials.   
 
-To facilitate this, you need to create a Google Cloud Platform (GCP) service account for Weld. Furthermore you need to assign the following roles to this service account. It is important that you create a new service account for this, and only attach these roles to that service account. This ensures that Weld can only access what is required, and helps secure your GCP account.
+To facilitate this, you need to create a Google Cloud Platform (GCP) service account for Weld. Furthermore you need to assign the following roles to this service account. We recommend that you create a new service account for this, and only attach these roles to that service account. This ensures that Weld can only access what is required, and helps secure your GCP account.
 
 **1.** Enable **Cloud Resource Manager API** in GCP
 Go to **Cloud Resource Manager API** and press **Enable**
