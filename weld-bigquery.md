@@ -1,6 +1,6 @@
 # What is BigQuery by Weld
 
-We are offering a managed BigQuery by Weld free up to 1TB stored data for you to easily get started.
+We are offering a managed BigQuery by Weld for free up to 1TB stored data for you to easily get started.
 
 ## How does it work?
 
