@@ -119,9 +119,6 @@ Rearranged into the correct format for weld would be:
 **Warehouse**  
 the default warehouse is `COMPUTE_WH`
 
-**Database**  
-The database should be `WELD_LANDING`
-
 **User name**  
 The default User name is `WELD_USER`
 
