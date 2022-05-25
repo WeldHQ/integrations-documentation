@@ -11,8 +11,7 @@ To facilitate this, you need to create a Snowflake user for Weld, as well as cre
 
 Don't want to do all this yourself? We got your back! Just run our script in your Snowflake instance as accountadmin, and it will be ready for Weld!
 
-**1.** To run the script, go and log in to the *classic console* in snowflake ![enter image description here](https://lh3.googleusercontent.com/pw/AM-JKLXNC0uH8lYRGwdAIKeDbh-uvg91hD9tJFEDvTMH4aV9zruMuXAMQiDa3wk8M8W2VD1eCbd8r5PhZbw23ybB1LR4bBVWFTud8ynjY_5_jLOesxwxir5SDcu-6liApibkKBn4s8VoMW9_7g28yibKjAU=w1254-h680-no?authuser=0)
->If this is your first time in the Classic Console, minimize the 'welcome' window.
+**1.** To run the script, create a new worksheet.
 
 **2.** Paste in the script found below:  
 
@@ -81,13 +80,7 @@ Don't want to do all this yourself? We got your back! Just run our script in you
 It should look like this. 
 `set user_weld_password = 'the password you decide here';`
 
-**4.** check the **All Queries**, and press **Run**
-
-![enter image description here](https://lh3.googleusercontent.com/pw/AM-JKLV0zTfbd206H_fAL-Wy-J3hW4TS8otL3o-kngS9XOveFCl45y01cuUiAD2GbP3cgxaDL_UKYedbfajIy6XDO29WcNBXt8JVMn1e0c7ZzAEIlsZ_7WEh_BFectF2muh2DHm_FVnP2-dZlEixCSTz2bw=w1354-h496-no?authuser=0)
-
-The bottom of your query editor should now show the following: 
-
-![enter image description here](https://lh3.googleusercontent.com/pw/AM-JKLUtx6Z6O-78_aJkN-DowQFcBjdahrA4zNRcLEFg1LpOd3B7IVBX1_i4_10Kjeu6yZQDK50DftjyOJJPa5nJVZBWLCiAb9k8oHcgo40Z1ThqKORlbCn1PEXK0OXYuJtXD9xczY07DAmAN0Z-CQR2nNg=w1054-h720-no?authuser=0)
+**4.** Mark the entire query and press **Run** in the top run.
 
 Did you successfully run the script? 
 Great! You can now skip ahead to the **Wheres My Credentials** part of this documentation, sign in with your snowflake credentials and begin your Weld journey. If you didn't do the setup script, continue below:
