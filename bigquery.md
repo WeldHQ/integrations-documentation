@@ -5,7 +5,7 @@ For Weld to be able to connect to Bigquery, you need a service account with the 
 To facilitate this, you need to create a Google Cloud Platform (GCP) service account for Weld. Furthermore you need to assign the following roles to this service account. We recommend that you create a new service account for this, and only attach these roles to that service account. This ensures that Weld can only access what is required, and helps secure your GCP account.
 
 **1.** Enable **Cloud Resource Manager API** in GCP
-Go to [**Cloud Resource Manager API**]([https://duckduckgo.com](https://console.cloud.google.com/marketplace/product/google/cloudresourcemanager.googleapis.com)) and press **Enable**
+Go to [**Cloud Resource Manager API**](https://console.cloud.google.com/marketplace/product/google/cloudresourcemanager.googleapis.com) and press **Enable**
 
 
 >This is required for us to verify that the service account provided to Weld, has the correct permissions to operate.
