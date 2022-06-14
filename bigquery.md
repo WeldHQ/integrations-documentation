@@ -7,12 +7,15 @@ To facilitate this, you need to create a Google Cloud Platform (GCP) service acc
 **1.** Enable **Cloud Resource Manager API** in GCP
 Go to [**Cloud Resource Manager API**](https://console.cloud.google.com/marketplace/product/google/cloudresourcemanager.googleapis.com) and press **Enable**
 
+![image_setting](https://drive.google.com/uc?id=1Ut_frLguId5dVrlNlweNVoAucXethF3t)
 
 >This is required for us to verify that the service account provided to Weld, has the correct permissions to operate.
 >If there is no **Enable** button, it might be enabled already.
 
 **2.** Create service account
 Go to [**Service Accounts**](https://console.cloud.google.com/iam-admin/serviceaccounts), and press create new account.  
+
+![image_setting](https://drive.google.com/uc?id=1EZ2fJulEEZoreiifORaUoKjsDzfJlrZt)
 
 Give it a name and press **Create and continue**. 
 Grant the service account the following roles:  
@@ -27,6 +30,7 @@ now press **Done**
 
 In the **Service accounts** window, click the service account you just created, and then press **Keys**. 
 
+![image_setting](https://drive.google.com/uc?id=1mojUQ63wWvDlJ-4kZXXNM_SyZnI27IsG)
 
 Now click **Add Key**, and then **Create New Key**. 
 Select **JSON**, and then press **Create**. 
